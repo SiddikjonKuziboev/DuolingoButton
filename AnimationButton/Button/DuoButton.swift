@@ -29,10 +29,10 @@ final class DuoButton: UIButton {
     }
     
     private func setupButton() {
-        setTitleColor(.blue, for: .normal)
-        backgroundColor = .white
+        setTitleColor(.white, for: .normal)
+        backgroundColor = #colorLiteral(red: 0.2588235438, green: 0.7568627596, blue: 0.9686274529, alpha: 1)
         layer.cornerRadius = 10
-        layer.borderColor = UIColor.lightGray.cgColor
+        layer.borderColor = #colorLiteral(red: 0.2588235438, green: 0.7568627596, blue: 0.9686274529, alpha: 1)
         layer.borderWidth = 2
         layer.masksToBounds = true
         

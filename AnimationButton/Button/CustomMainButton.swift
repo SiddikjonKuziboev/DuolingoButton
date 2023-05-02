@@ -54,11 +54,12 @@ import UIKit
 
       private func setupButton() {
           // customize your button here
-          backgroundColor = .lightGray
+          backgroundColor = #colorLiteral(red: 0.1764705926, green: 0.4980392158, blue: 0.7568627596, alpha: 1)
+          
           translatesAutoresizingMaskIntoConstraints = false
           
           button.layer.borderWidth = 2
-          button.layer.borderColor = UIColor.lightGray.cgColor
+          button.layer.borderColor = #colorLiteral(red: 0.2588235438, green: 0.7568627596, blue: 0.9686274529, alpha: 1)
           button.translatesAutoresizingMaskIntoConstraints = false
           addSubview(button)
           
