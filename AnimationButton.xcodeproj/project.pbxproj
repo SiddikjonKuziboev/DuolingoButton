@@ -13,6 +13,9 @@
 		4D3D8B9729FFE32A00AA11E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3D8B9529FFE32A00AA11E0 /* Main.storyboard */; };
 		4D3D8B9929FFE32B00AA11E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D3D8B9829FFE32B00AA11E0 /* Assets.xcassets */; };
 		4D3D8B9C29FFE32B00AA11E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3D8B9A29FFE32B00AA11E0 /* LaunchScreen.storyboard */; };
+		4D3D8BA529FFE34700AA11E0 /* DuoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D8BA429FFE34700AA11E0 /* DuoButton.swift */; };
+		4D96CBF92A00DC5E00B31D07 /* CustomMainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D96CBF82A00DC5E00B31D07 /* CustomMainButton.swift */; };
+		4D96CBFB2A00F14E00B31D07 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D96CBFA2A00F14E00B31D07 /* click.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		4D3D8B9829FFE32B00AA11E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D3D8B9B29FFE32B00AA11E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D3D8B9D29FFE32B00AA11E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D3D8BA429FFE34700AA11E0 /* DuoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuoButton.swift; sourceTree = "<group>"; };
+		4D96CBF82A00DC5E00B31D07 /* CustomMainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMainButton.swift; sourceTree = "<group>"; };
+		4D96CBFA2A00F14E00B31D07 /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		4D3D8B8E29FFE32A00AA11E0 /* AnimationButton */ = {
 			isa = PBXGroup;
 			children = (
+				4D3D8BA329FFE33500AA11E0 /* Button */,
 				4D3D8B8F29FFE32A00AA11E0 /* AppDelegate.swift */,
 				4D3D8B9129FFE32A00AA11E0 /* SceneDelegate.swift */,
 				4D3D8B9329FFE32A00AA11E0 /* ViewController.swift */,
@@ -65,6 +72,16 @@
 				4D3D8B9D29FFE32B00AA11E0 /* Info.plist */,
 			);
 			path = AnimationButton;
+			sourceTree = "<group>";
+		};
+		4D3D8BA329FFE33500AA11E0 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				4D3D8BA429FFE34700AA11E0 /* DuoButton.swift */,
+				4D96CBF82A00DC5E00B31D07 /* CustomMainButton.swift */,
+				4D96CBFA2A00F14E00B31D07 /* click.mp3 */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +145,7 @@
 				4D3D8B9C29FFE32B00AA11E0 /* LaunchScreen.storyboard in Resources */,
 				4D3D8B9929FFE32B00AA11E0 /* Assets.xcassets in Resources */,
 				4D3D8B9729FFE32A00AA11E0 /* Main.storyboard in Resources */,
+				4D96CBFB2A00F14E00B31D07 /* click.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +158,8 @@
 			files = (
 				4D3D8B9429FFE32A00AA11E0 /* ViewController.swift in Sources */,
 				4D3D8B9029FFE32A00AA11E0 /* AppDelegate.swift in Sources */,
+				4D3D8BA529FFE34700AA11E0 /* DuoButton.swift in Sources */,
+				4D96CBF92A00DC5E00B31D07 /* CustomMainButton.swift in Sources */,
 				4D3D8B9229FFE32A00AA11E0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
